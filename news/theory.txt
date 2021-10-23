@@ -1,0 +1,19 @@
+const url =
+  "https://content.guardianapis.com?page=2&q=debate&api-key=test#contacts";
+
+//  "https://content.guardianapis.com/search?page=2&q=debate&api-key=test#contacts";
+
+// urn - уникальное имя ресурса - протокол + DNS - https://content.guardianapis.com
+// url - - /search?page=2&q=debate&api-key=test
+// uri - и протокол и имя -  https://content.guardianapis.com/search?page=2&q=debate&api-key=test
+// search - endpoint адресс - статический параметр
+// ? - начало строки запроса
+//
+// Парметры запроса:
+// page=2
+// q=debate
+// api-key=test
+// & - разделитель параметров запроса
+
+// #contacts  якорь, страница загрузится на этот якорь
+// API - web сервис, котрый раздает что-либо (например, погоду)
